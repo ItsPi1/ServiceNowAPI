@@ -10,11 +10,9 @@ Install-Script -Name Install-RequiredModule
 
 1. run `Install-RequiredModule`
 
-2. add `.ps1` script files to the `Source` folder
+2. run `Build-Module .\Source`
 
-3. run `Build-Module .\Source`
-
-4. compiled module appears in the `Output` folder
+3. compiled module appears in the `Output` folder
 
 ## Versioning
 
